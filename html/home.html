@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Natural Aesthetics</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="../css/common.css">
+        <link type="text/css" rel="stylesheet" href="../css/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body class="flex_col">
+        <div id="nav_bar" class="flex justify screen_width fixed">
+            <div id="nav_box" class="flex align max_width">
+                <img src="../img/blank.png">
+                <ul id="nav_list" class="flex">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="doctors.html">Our Doctors</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="nav_blank"></div>
+        <div id="landing" class="flex justify screen_width">
+            <div id="landing_box" class="flex_col justify align max-width">
+                <div>
+                    <h2>Natural-Centric Aesthetic Treatments</h2>
+                    <p>Medical Aesthetic Treatments focused on natural looking beauty. Start your journey towards a younger and more confident you.</p>
+                </div>
+                <div>
+                    <a href="services.html"><button class="landing_button">Treatments</button></a>
+                    <a href=#appointment><button class="landing_button">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+        <div id="treatment" class="flex justify auto_height screen_width">
+            <div id="treatment_box" class="flex_col justify auto_padding max-width">
+                <div id="treatment_title">
+                    <h2>Welcome to Natural Aesthetics</h2>
+                    <p>We promise a satisfactory customer experience with high quality and competitively priced services.</p>
+                </div>
+                <div id="treatment_img" class="flex justify">
+                    <div>
+                        <img src="../img/blank.png">
+                        <h3>Signature Treatments</h3>
+                    </div>
+                    <div>
+                        <img src="../img/blank.png">
+                        <h3>Our Services</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="listed" class="flex justify auto_height screen_width">
+            <div id="listed_box" class="flex_col justify auto_padding max-width">
+                <h2>As Listed On</h2>
+                <div id="listed_img" class="flex">
+                    <img src="../img/blank.png">
+                    <img src="../img/blank.png">
+                    <img src="../img/blank.png">
+                    <img src="../img/blank.png">
+                </div>
+            </div>
+        </div>
+        <div id="appointment" class="flex justify auto_height screen_width">
+            <div id="appt_box" class="flex_col auto_padding max-width">
+                <h2>Book an Appointment</h2>
+                <form>
+                    <table id="appt_table">
+                        <tr>
+                            <td><input type="text" placeholder="Name*" required></td>
+                        </tr>
+                        <tr> 
+                            <td><input type="email" placeholder="Email*" required></td>                                                         
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Phone"></td>                                
+                        </tr>
+                        <tr>
+                            <td>
+                                <select required>
+                                    <option selected disabled>Select Treatment*</option>
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="appt_submit" class="flex">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
